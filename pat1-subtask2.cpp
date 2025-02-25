@@ -1,6 +1,6 @@
 #include <iostream>
-
-int main() {
+using namespace std;
+int main(){
   int temperature1, temperature2, temperature3;
 
 std:: cout << "Enter the first temperature reading: ";
@@ -15,21 +15,21 @@ cout<<"Reduce fryer heat before taking the third reading.\n ";
 
 }
 cout <<"Enter the third temperature reading:";
-cin >> temperature 3;
+cin >> temperature3;
 
 //Check if there is an increase between the second and the third readings is less than 10 degrees
-if (temperature3 - temperature 2 < 10){
+if (temperature3 - temperature2 < 10){
 cout <<"Increase the fryer heat before taking the third reading./n";
 
 }
 
 //Check if the final temperature is within the acceptable range
-if (temperature 3>= 150 && temperature 3 <=190){
+if (temperature3>= 150 && temperature3 <=190){
 cout  <<"Oil is not ready for frying!\n";
 }
 
 return 0;
-}
+} 
 
 
 
